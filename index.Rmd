@@ -119,7 +119,7 @@ Naturally, you will need internet access for these services to be accessed.
 ## Column 1
 
 ### Prerequisites
-All participants are assumed to be familiar with basic scripting in `R`. If you are in doubt about your skill set, please go over the materials in [this preperatory course](https://www.gerkovink.com/prepR/#exercises)
+All participants are assumed to be familiar with basic scripting in `R`. If you are in doubt about your skill set, please go over the materials in [this preperatory course](https://www.gerkovink.com/prepR/#exercises).
 
 All the best, 
 
