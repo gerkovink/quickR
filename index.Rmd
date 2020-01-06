@@ -30,7 +30,7 @@ The course deals with the following topics:
 3.	Basic statistical learning techniques.
 4.	Crossvalidation.
 
-**The course starts at an intermediate level.** At the end of the week, participants will master advanced programming and scripting skills with R. 
+**The course starts at an intermediate level.** At the end of the course, participants will master advanced programming and scripting skills with R. Please follow [these exercises](https://www.gerkovink.com/prepR/#exercises) if you have doubts about your `R` skills. 
 
 Prerequisites:
 Participants are requested to bring their own laptop for lab meetings.
@@ -133,14 +133,13 @@ All the best,
 I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
 
 - Part A: Custom functions
-    - [Lecture A](Contents/Material/Part E - Functions apply and looping/Lecture_E.html)
-    - [Practical A](Contents/Material/Part E - Functions apply and looping/Practical_E_walkthrough.html)
-    - [Impractical A](Contents/Material/Part E - Functions apply and looping/Practical_E.html)
+    - [Lecture A](Material/Part E - Functions apply and looping/Lecture_E.html)
+    - [Practical A](Material/Part E - Functions apply and looping/Practical_E_walkthrough.html)
+    - [Impractical A](Material/Part E - Functions apply and looping/Practical_E.html)
 - Part B: Pipes & Data visualization
-    - [Lecture B](Contents/Material/Part I - Data visualization/Lecture_i.html)
-    - [Practical B](Contents/Material/Part I - Data visualization/Practical_i_walkthrough.html)
-    - [Impractical B](Contents/Material/Part I - Data visualization/Practical_i.html)
-    - [Practical B discussion](https://www.dropbox.com/s/0bn5qbkes0o0kia/Practical%20G%20discussion.mp4?dl=0)
+    - [Lecture B](Material/Part I - Data visualization/Lecture_i.html)
+    - [Practical B](Material/Part I - Data visualization/Practical_i_walkthrough.html)
+    - [Impractical B](Material/Part I - Data visualization/Practical_i.html)
 
 All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. `Impractical` files contain the exercises, without walkthrough, explanations and solutions. 
 
@@ -164,13 +163,13 @@ The above links are useful references that connect to today's materials. The abo
 I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
 
 - Part C: Model estimation
-    - [Lecture C](Contents/Material/Part JK - Model estimation/Lecture_J.html)
-    - [Practical C](Contents/Material/Part JK - Model estimation/Practical_J_walkthrough.html)
-    - [Impractical C](Contents/Material/Part JK - Model estimation/Practical_J.html)
+    - [Lecture C](Material/Part JK - Model estimation/Lecture_J.html)
+    - [Practical C](Material/Part JK - Model estimation/Practical_J_walkthrough.html)
+    - [Impractical C](Material/Part JK - Model estimation/Practical_J.html)
 - Part D: Classification & Clustering
-    - [Lecture D](Contents/Material/Part M - Unsupervised learning/Lecture_M.html)
-    - [Practical D](Contents/Material/Part M - Unsupervised learning/Practical_M_walkthrough.html)
-    - [Impractical D](Contents/Material/Part M - Unsupervised learning/Practical_M.html)
+    - [Lecture D](Material/Part M - Unsupervised learning/Lecture_M.html)
+    - [Practical D](Material/Part M - Unsupervised learning/Practical_M_walkthrough.html)
+    - [Impractical D](Material/Part M - Unsupervised learning/Practical_M.html)
 
 
 All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. `Impractical` files contain the exercises, without walkthrough, explanations and solutions. 
