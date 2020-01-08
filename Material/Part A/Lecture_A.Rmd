@@ -185,7 +185,7 @@ library(MASS)     # for the cats data
 library(dplyr)    # data manipulation
 library(haven)    # in/exporting data
 library(magrittr) # pipes
-library(mice)     # for the nhanes data
+library(mice)     # for the boys data
 library(ggplot2)  # visualization
 ```
 
