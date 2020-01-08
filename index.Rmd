@@ -132,16 +132,11 @@ All the best,
 ### The first day's materials
 I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
 
-- Part A: Custom functions
-    - [Lecture A](Material/Part E - Functions apply and looping/Lecture_E.html)
-    - [Practical A](Material/Part E - Functions apply and looping/Practical_E_walkthrough.html)
-    - [Impractical A](Material/Part E - Functions apply and looping/Practical_E.html)
-- Part B: Pipes & Data visualization
-    - [Lecture B](Material/Part I - Data visualization/Lecture_i.html)
-    - [Practical B](Material/Part I - Data visualization/Practical_i_walkthrough.html)
-    - [Impractical B](Material/Part I - Data visualization/Practical_i.html)
+- Part A: Custom functions, Pipes and Data Visualization
+    - [Lecture A](Material/Part A/Lecture_A.html)
+    - [Practical A](Material/Part A/)
 
-All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. `Impractical` files contain the exercises, without walkthrough, explanations and solutions. 
+All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. 
 
 ## Column 2
 
@@ -187,7 +182,7 @@ The above link is a useful reference that connects to today's materials.
 ## Column 1
 
 ### Download a course archive 
-I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online. At the end of the course, you can download all course materials [here](Contents/Material/Archive/Course Archive.zip). 
+I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online. At the end of the course, you can download all course materials [here](Material/Archive/Archive.html). 
 
 # To continue
 
