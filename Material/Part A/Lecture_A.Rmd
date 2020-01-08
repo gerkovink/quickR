@@ -257,8 +257,10 @@ head(cats)
 ## Sorting 
 
 ```{r}
-sorted.cats <- cats[order(cats$Bwt), ]
-head(sorted.cats)
+sort1 <- arrange(cats, Bwt)
+head(sort1)
+sort2 <- arrange(cats, desc(Bwt))
+head(sort2)
 ```
 
 ## Combining matrices or dataframes
@@ -344,6 +346,7 @@ For example:
 
 ```{r}
 a <- 2
+a > 5
 if (a > 5){
   print("a is larger than 5.")
 }
@@ -558,7 +561,7 @@ $$\text{FUNCTION AND STAYS IN THE FUNCTION!}$$
 This is because a function opens a seperate environment that only exists for as long as the function operates. This means:
 
 To get information from the global environment to the function’s environment, we need arguments.
-To properly return information to the global environment, we should use return(). In general, using return() makes it explicit what your function’s return is. For complicated functions this is proper coding procedure, but for simple functions it is not strictly necessary.
+To properly return information to the global environment, we should use `return()`. In general, using `return()` makes it explicit what your function’s return is. For complicated functions this is proper coding procedure, but for simple functions it is not strictly necessary.
 
 ## Our example function
 To put this example function to the test:
