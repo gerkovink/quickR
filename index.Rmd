@@ -134,7 +134,7 @@ I usually adapt the course as we go. To ensure that you work with the latest ite
 
 - Part A: Custom functions, Pipes and Data Visualization
     - [Lecture A](Material/Part A/Lecture_A.html)
-    - [Practical A](Material/Part A/)
+    - [Practical A](Material/Part A/Practical_A_walkthrough.html)
 
 All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. 
 
