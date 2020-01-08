@@ -136,7 +136,7 @@ I usually adapt the course as we go. To ensure that you work with the latest ite
     - [Lecture A](Material/Part A/Lecture_A.html)
     - [Practical A](Material/Part A/Practical_A_walkthrough.html)
     - [Impractical A](Material/Part A/Practical_A.html)
-    - [boys.sav](Material/Part A/boys.sav)
+    - The [boys.sav](Material/Part A/boys.sav) set used in the slides
 
 All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. `Impractical` files contain the exercises without walkthrough, explanations and solutions. 
 
