@@ -11,7 +11,7 @@ output:
 
 # Today 
 
-## This lecture
+## This lecture and practical
 
 - Merging Data / Data Table
 
@@ -22,10 +22,6 @@ output:
 - Logistic models 
 
 - Visualizing marginal effects
-
-- Time series in `R`
-
-- Principal components analysis
 
 - Clustering
 
