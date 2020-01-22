@@ -159,15 +159,11 @@ The above links are useful references that connect to today's materials. The abo
 ### The second day's materials
 I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
 
-- Part C: Model estimation
-    - [Lecture C](Material/Part JK - Model estimation/Lecture_J.html)
-    - [Practical C](Material/Part JK - Model estimation/Practical_J_walkthrough.html)
-    - [Impractical C](Material/Part JK - Model estimation/Practical_J.html)
-- Part D: Classification & Clustering
-    - [Lecture D](Material/Part M - Unsupervised learning/Lecture_M.html)
-    - [Practical D](Material/Part M - Unsupervised learning/Practical_M_walkthrough.html)
-    - [Impractical D](Material/Part M - Unsupervised learning/Practical_M.html)
-
+- Part B: Custom functions, Pipes and Data Visualization
+    - [Lecture B](Material/Part B/Lecture_B.html)
+    - [Practical A](Material/Part B/Practical_B_walkthrough.html)
+    - [Impractical A](Material/Part B/Practical_B.html)
+    - The [elasticdata.RData](elasticdata.RData) workspace used in the practical
 
 All lectures are in `html` format. Practicals are walkthrough files that guide you through the exercises. `Impractical` files contain the exercises, without walkthrough, explanations and solutions. 
 
