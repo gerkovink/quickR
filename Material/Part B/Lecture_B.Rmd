@@ -31,9 +31,9 @@ library(dplyr)
 library(magrittr)
 library(mice)
 library(bench)
-library(ggplot2)  # Plotting suite
-library(class)    # K-nearest Neighbour
-library(mvtnorm)  # Multivariate Normal tools
+library(ggplot2)  
+library(class)    
+library(mvtnorm)  
 library(psych)
 library(caret)
 ```
