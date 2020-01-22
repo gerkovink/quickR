@@ -174,6 +174,7 @@ All lectures are in `html` format. Practicals are walkthrough files that guide y
 - [A great reference on contrasts with linear modeling](https://rstudio-pubs-static.s3.amazonaws.com/65059_586f394d8eb84f84b1baaf56ffb6b47f.html)
 - Some of my [Slides](Material/Extra/Lecture_O_handout.html) and [exercises](Material/Extra/Practical_O_walkthrough.html) on Principal Components Analysis
 - [A great reference on clustered SE's in panel data models](https://cran.r-project.org/web/packages/clubSandwich/vignettes/panel-data-CRVE.html)
+- [A detailed reference on `nlcom` functionality in `R`](https://stats.idre.ucla.edu/r/faq/how-can-i-estimate-the-standard-error-of-transformed-regression-parameters-in-r-using-the-delta-method/)
 
 The above links are useful references that connects to today's materials.
 
