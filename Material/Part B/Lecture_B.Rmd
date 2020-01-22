@@ -33,7 +33,6 @@ output:
 ```{r}
 library(dplyr)
 library(magrittr)
-library(DAAG)
 library(mice)
 library(bench)
 library(ggplot2)  # Plotting suite
@@ -251,7 +250,7 @@ In short, we assume
 - The residuals are **normally distributed** with mean $\mu_\epsilon = 0$
 
 ## A simple model
-```{r cache = TRUE}
+```{r cache = FALSE}
 fit <- anscombe %$%
   lm(y1 ~ x1)
 fit
@@ -275,7 +274,7 @@ plot(fit2)
 # Model fit
 
 ## A simple model
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit <- 
   na.omit(boys) %$% # Extremely wasteful
   lm(age ~ reg)
@@ -294,7 +293,7 @@ ggplot(na.omit(boys), aes(x = reg, y = age)) +
 
 
 ## Model parameters
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit %>%
   summary()
 ```
@@ -310,7 +309,7 @@ $$2\text{e-16} = 0.0000000000000002$$
 
 ## AIC
 Akaike's *An Information Criterion* 
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit %>% 
   AIC()
 ```
@@ -327,7 +326,7 @@ AIC comes from information theory and can be used for model selection. The AIC q
 
 ## A new model
 Let's add predictor `hgt` to the model:
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit2 <- 
   na.omit(boys) %$%
   lm(age ~ reg + hgt)
@@ -338,7 +337,7 @@ boys.fit2 %>% AIC()
 
 ## Another model
 Let's add `wgt` to the model
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit3 <- 
   na.omit(boys) %$%
   lm(age ~ reg + hgt + wgt)
@@ -346,7 +345,7 @@ boys.fit3 <-
 
 ## And another model
 Let's add `wgt` and the interaction between `wgt` and `hgt` to the model
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit4 <- 
   na.omit(boys) %$%
   lm(age ~ reg + hgt * wgt)
@@ -359,22 +358,22 @@ boys.fit4 <-
 ```
 
 ## Model comparison
-```{r cache = TRUE}
+```{r cache = FALSE}
 AIC(boys.fit, boys.fit2, boys.fit3, boys.fit4)
 ```
 
 ## And with `anova()`
-```{r cache = TRUE}
+```{r cache = FALSE}
 anova(boys.fit, boys.fit2, boys.fit3, boys.fit4)
 ```
 
 ## Inspect `boys.fit3`
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit3 %>% anova()
 ```
 
 ## Inspect `boys.fit4`
-```{r cache = TRUE}
+```{r cache = FALSE}
 boys.fit4 %>% anova()
 ```
 It seems that `reg` and the interaction `hgt:wgt` are redundant
@@ -428,7 +427,7 @@ step.model
 
 ## Influence of cases
 DfBeta calculates the change in coefficients depicted as deviation in SE's.
-```{r cache = TRUE}
+```{r cache = FALSE}
 step.model %>%
   dfbeta() %>%
   head(n = 7)
@@ -438,7 +437,7 @@ step.model %>%
 
 ## Fitted values
 Let's use the simpler `anscombe` data example
-```{r cache = TRUE}
+```{r cache = FALSE}
 fit <- anscombe %$% lm(y1 ~ x1)
 
 y_hat <- 
@@ -446,13 +445,13 @@ y_hat <-
   fitted.values()
 ```
 The residual is then calculated as
-```{r cache = TRUE}
+```{r cache = FALSE}
 y_hat - anscombe$y1
 ```
 
 ## Predict new values
 If we introduce new values for the predictor `x1`, we can generate predicted values from the model
-```{r cache = TRUE, warning=FALSE}
+```{r cache = FALSE, warning=FALSE}
 new.x1 <- data.frame(x1 = 1:20)
 fit %>% predict(newdata = new.x1)
 ```
@@ -761,6 +760,7 @@ new %>%
 
 ## Model comparison
 ```{r}
+fit <- titanic %$% glm(Survived ~ Age + Sex + Pclass, family = binomial(link="logit")) 
 anova(fit, fit.interaction, test = "Chisq") 
 ```
 The interaction model fits much better to the data. 
@@ -794,24 +794,6 @@ correct / sum(CM)
 caret::confusionMatrix(as.factor(pred), reference = as.factor(titanic$Survived))
 ```
 
-## Sensitivity / Specificity
-
-```{r, echo = FALSE}
-out <- data.frame(Survived = c("A", "C"), 
-                 "not Survived" = c("B", "D"))
-rownames(out) <- c("Predicted Survived", "Predicted not.Survived")
-out
-```
-
-- Sensitivity is calculated as $\text{Sensitivity} = A/(A+C) = \frac{463}{463+82} =$ `r 463/(463+82)`
-  - Sensitivity is the proportion of actual `Survived` that have been correctly predicted as `Survived`. 
-  - Sensitivity is the *True Positive Rate*
-  
-- Specificity is calculated as $\text{Specificity} = D/(B+D) = \frac{242}{100+242} =$ `r 242/(242+100)`
-  - Specificity is the proportion of actual `not Survived` that have been correctly predicted as `not Survived`. 
-  - Specificity is the *True Negative Rate*
-
-
 # Clustering
 
 ## Custom theme for plots
@@ -826,7 +808,7 @@ theme_update(plot.background = element_rect(fill = "transparent", colour = NA))
 knitr::opts_chunk$set(dev.args=list(bg="transparent"), dev = "svg")
 ```
 
-# What is statistical learning?
+# Statistical learning
 
 ## Statistics is everywhere
 

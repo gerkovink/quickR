@@ -1591,12 +1591,13 @@ pre { /* Code block - determines code spacing between lines */
 library(magrittr)
 library(mice)
 library(ggplot2)
-library(DAAG)
 library(MASS)
 library(class)
 library(mvtnorm)</code></pre>
 <hr />
-<p>The data sets <code>elastic1</code> and <code>elastic2</code> from the package <code>DAAG</code> were obtained using the same apparatus, including the same rubber band, as the data frame <code>elasticband</code>.</p>
+<p>The data sets <code>elastic1</code> and <code>elastic2</code> from the package <code>DAAG</code> were obtained using the same apparatus, including the same rubber band, as the data frame <code>elasticband</code>. Package <code>DAAG</code> has since been archived and the elastic 2 data can be obtained as:</p>
+<pre class="r"><code>connection &lt;- url(&quot;https://www.gerkovink.com/quickR/elasticdata.RData&quot;)
+load(connection)</code></pre>
 <ol style="list-style-type: decimal">
 <li><strong>Using a different symbol and/or a different color, plot the data from the two data frames <code>elastic1</code> and <code>elastic2</code> on the same graph. Do the two sets of results appear consistent?</strong></li>
 </ol>

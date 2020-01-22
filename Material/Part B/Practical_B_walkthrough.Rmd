@@ -61,7 +61,6 @@ library(dplyr)
 library(magrittr)
 library(mice)
 library(ggplot2)
-library(DAAG)
 library(MASS)
 library(class)
 library(mvtnorm)
@@ -71,7 +70,12 @@ library(mvtnorm)
 
 The data sets `elastic1` and `elastic2` from the package `DAAG` were obtained
 using the same apparatus, including the same rubber band, as the data frame
-`elasticband`. 
+`elasticband`. Package `DAAG` has since been archived and the elastic 2 data can be obtained as:
+```{r}
+connection <- url("https://www.gerkovink.com/quickR/elasticdata.RData")
+load(connection)
+```
+
 
 1. **Using a different symbol and/or a different color, plot the data
 from the two data frames `elastic1` and `elastic2` on the same graph. Do the two
