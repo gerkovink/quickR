@@ -159,7 +159,7 @@ The above links are useful references that connect to today's materials. The abo
 ### The second day's materials
 I usually adapt the course as we go. To ensure that you work with the latest iteration of the course materials, I advice all course participants to access the materials online.
 
-- Part B: Custom functions, Pipes and Data Visualization
+- Part B: Statistical learning 
     - [Lecture B](Material/Part B/Lecture_B.html)
     - [Practical B](Material/Part B/Practical_B_walkthrough.html)
     - [Impractical B](Material/Part B/Practical_B.html)
